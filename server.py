@@ -7,4 +7,4 @@ while True:
  message, clientAddress = serverSocket.recvfrom(2048)
  modifiedMessage = message.decode().upper()
  serverSocket.sendto(modifiedMessage.encode(), clientAddress)
- print ('Recieved: ', modifiedMessage)
+ print ('Recieved:'  message)
